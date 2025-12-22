@@ -1,0 +1,89 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "published_year": 1925,
+      "genre": ["Classic", "Fiction"],
+      "description": "A novel that follows a cast of characters living in the fictional towns of West Egg and East Egg on prosperous Long Island in the summer of 1922.",
+      "cover_image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+      "rating": 4.4,
+      "page_count": 180,
+      "language": "English",
+      "availability": {
+        "format": "Hardcover",
+        "in_stock": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "published_year": 2018,
+      "genre": ["Self-Help", "Non-Fiction"],
+      "description": "No matter your goals, Atomic Habits offers a proven framework for improving every day.",
+      "cover_image": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
+      "rating": 4.8,
+      "page_count": 320,
+      "language": "English",
+      "availability": {
+        "format": "Paperback",
+        "in_stock": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780547928227",
+      "published_year": 1937,
+      "genre": ["Fantasy", "Adventure"],
+      "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, but his contentment is disturbed when the wizard Gandalf arrives.",
+      "cover_image": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
+      "rating": 4.7,
+      "page_count": 310,
+      "language": "English",
+      "availability": {
+        "format": "Hardcover",
+        "in_stock": false
+      }
+    },
+    {
+      "id": 4,
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "isbn": "9780593135204",
+      "published_year": 2021,
+      "genre": ["Science Fiction", "Thriller"],
+      "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the earth itself will perish.",
+      "cover_image": "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg",
+      "rating": 4.9,
+      "page_count": 478,
+      "language": "English",
+      "availability": {
+        "format": "Kindle Edition",
+        "in_stock": true
+      }
+    },
+    {
+      "id": 5,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "isbn": "9780399590504",
+      "published_year": 2018,
+      "genre": ["Memoir", "Biography"],
+      "description": "An unforgettable memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University.",
+      "cover_image": "https://covers.openlibrary.org/b/isbn/9780399590504-L.jpg",
+      "rating": 4.6,
+      "page_count": 352,
+      "language": "English",
+      "availability": {
+        "format": "Paperback",
+        "in_stock": true
+      }
+    }
+  ]
+}
