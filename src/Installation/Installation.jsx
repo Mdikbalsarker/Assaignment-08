@@ -1,18 +1,12 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
+import Install from './Install';
 
 const Installation = () => {
-    const bookData=useLoaderData();
+    const Data=useLoaderData();
    return (
-        <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-            {bookData.books.map((book) => (
-                <div key={book.id} className="book-card" style={{ border: '1px solid #ddd', padding: '10px', width: '200px' }}>
-                    <img src={book.cover_image} alt={book.title} style={{ width: '100%', height: 'auto' }} />
-                    <h3>{book.title}</h3>
-                    <p>By: {book.author}</p>
-                    <span>Rating: ⭐ {book.rating}</span>
-                </div>
-            ))}
+        <div className='grid grid-cols-5 gap-5'>
+            {Data.Apps.map((product) => <Install key={product.id} product={product}></Install>)}
         </div>
     );
 };
