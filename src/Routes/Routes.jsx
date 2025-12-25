@@ -24,9 +24,9 @@ export  const router=createBrowserRouter(
             }
         ,
         {
-            path:"/installation",
+            path:"/app",
             loader:()=>fetch('AppsList.json'),
-            Component:Installation
+            Component: Installation
         },
         {
             path:'/productDetails/:id',
@@ -34,9 +34,9 @@ export  const router=createBrowserRouter(
             Component:ProductDetails
         },
         {
-            path:'/app',
+            path:'/installation',
             loader:()=>fetch('AppsList.json'),
-            Component:ReactTab
+            Component: ReactTab
         }
     ]
         }

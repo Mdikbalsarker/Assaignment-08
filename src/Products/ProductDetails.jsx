@@ -1,6 +1,7 @@
 import { FaAccessibleIcon, FaArrowAltCircleLeft } from 'react-icons/fa';
 import { useLoaderData, useParams, Link } from 'react-router';
 import { addToStoredDB } from '../Utility/AddtoDB';
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 
 const ProductDetails = () => {
@@ -25,8 +26,8 @@ const handleMarkAsRead= id =>{
         // if book are not exist ,push to array
 
 return(
-    <div className='mx-auto'>
-    <Link to='/'><button className='btn btn-primary'><FaAccessibleIcon></FaAccessibleIcon></button></Link>
+    <div className='mx-auto px-20'>
+    <Link to='/'><button className='btn btn-primary'><RiArrowGoBackFill /></button></Link>
     <div className='w-10/16 h-[260px] grid grid-cols-2 border-2 rounded-xl mx-auto bg-slate-200'>
     <div><img className='h-[150px]' src={app.imageUrl} alt="" /></div>
     <div><h1>{app.title}</h1>

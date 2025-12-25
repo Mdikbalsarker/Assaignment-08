@@ -57,7 +57,7 @@ const Navbar = () => {
        <div className='hidden md:flex'>
         {ulList}
        </div>
-       <button className='btn btn-primary'><FaGithub />Connect</button>
+       <NavLink to='https://github.com/Mdikbalsarker/Assaignment-08'><button className='btn btn-primary'><FaGithub />Connect</button></NavLink>
         </nav>
     );
 };
